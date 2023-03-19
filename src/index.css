@@ -11,3 +11,66 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.snack {
+  background: var(--mainWhite);
+  margin-bottom: 2rem;
+  box-shadow: var(--lightShadow);
+  transition: var(--mainTransition);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  border-radius: var(--mainBorderRadius);
+}
+
+.snack:hover {
+  box-shadow: var(--darkShadow);
+}
+
+.snack img {
+  height: 20rem;
+  object-fit: cover;
+  border-top-left-radius: var(--mainBorderRadius);
+  border-top-right-radius: var(--mainBorderRadius);
+}
+
+.snack-footer {
+  padding: 1.5rem;
+}
+
+.snack-footer h3,
+.snack-footer h4,
+.snack-footer p {
+  margin-bottom: 0.3rem;
+}
+
+.snack-footer h3 {
+  font-size: 2rem;
+}
+
+.snack-footer p {
+  color: var(--darkGrey);
+  margin-bottom: 0.5rem;
+}
+.list{
+  display: block;
+  /* float: right; */
+ 
+  margin: 0 auto;
+  margin-left: 400px;
+  list-style-type: none;
+  padding: 0.35rem;
+}
+.machine{
+  float: right;
+  max-height: 60vh;
+  margin-right:300px ;
+
+}
+ h2 {
+  display: block;
+
+    margin: 0 auto;
+    margin-left: 400px;
+padding-bottom: 1rem;
+}
+
